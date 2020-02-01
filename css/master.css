@@ -18,7 +18,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #000, #000, #111);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+        url("../images/landing-bg2.jpg");
+    background-size: cover;
 }
 
 .landing .down {
